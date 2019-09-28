@@ -8,13 +8,13 @@ class Owner
     @@all << self 
   end
   
-  def all 
+  def self.all 
     @@all 
   end
-  def count
+  def self.count
     self.all.count
   end
-  def reset_all
+  def self.reset_all
     self.all.clear
   end
   def say_species
