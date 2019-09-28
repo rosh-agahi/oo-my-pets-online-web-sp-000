@@ -20,4 +20,8 @@ class Owner
   def say_species
     return "I am a #{@species}."
   end
+  
+  def cats 
+    Cats.all.select{|cat| cat.owner == self}
+  end
 end
