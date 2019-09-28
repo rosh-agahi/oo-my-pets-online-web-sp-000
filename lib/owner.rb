@@ -17,4 +17,7 @@ class Owner
   def reset_all
     self.all.clear
   end
+  def say_species
+    puts @species
+  end
 end
