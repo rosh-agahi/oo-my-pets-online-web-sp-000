@@ -15,5 +15,5 @@ class Owner
     self.all.count
   end
   def reset_all
-    
+    self.all.delete_all
 end
